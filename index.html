@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto-Themed Game Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="gameHub" class="game-hub">
+        <h1>Welcome to the Naruto-Themed Game Hub</h1>
+        <div id="languageSelector">
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="jp">Japanese</option>
+            </select>
+        </div>
+        <div id="gameSelection">
+            <button onclick="startQandA()" class="game-button">Q&A Game</button>
+            <button onclick="startQuiz()" class="game-button">Quiz Game</button>
+            <button onclick="startChess()" class="game-button">Play Chess</button>
+        </div>
+    </div>
+
+    <div id="gameContent" class="game-content"></div>
+    <div id="popupNotification" class="popup"></div>
+
+    <footer>
+        <p>Made with ❤️ by YourName</p>
+    </footer>
+</body>
+</html>
